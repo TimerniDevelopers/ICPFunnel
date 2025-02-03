@@ -1311,6 +1311,7 @@ color: var(--bg-theme-color1);
   .team-block-two {
     position: relative;
     margin-bottom: 30px;
+    padding: 50px 0px;
     }
     .team-block-two .inner-box {
     position: relative;
@@ -1416,7 +1417,7 @@ color: var(--bg-theme-color1);
     position: absolute;
     right: 20px;
     bottom: 40px;
-    padding: 15px 0;
+    padding: 15px;
     margin: 0 auto 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1429,7 +1430,7 @@ color: var(--bg-theme-color1);
         -ms-flex-direction: column;
             flex-direction: column;
     width: 54px;
-    background: var(--theme-color2);
+    border: 1px solid #fff;
     -webkit-transform: scaleY(0);
             transform: scaleY(0);
     -webkit-transform-origin: bottom;
@@ -1455,6 +1456,10 @@ color: var(--bg-theme-color1);
     }
     .team-block-two .social-links a:hover {
       color: var(--theme-color-light);
+    }
+    .guest-carousel .team-block-two.mt_35{
+      position: relative;
+      margin-top: -35px;
     }
     .guest-carousel .owl-dots {
       display: flex;
