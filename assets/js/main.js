@@ -184,6 +184,7 @@
         }
     });
         
+    
     $('.ques-slider').owlCarousel({
         margin: 30,
         nav: true,
@@ -191,7 +192,14 @@
         dots:true,
         items: 1
     });
-        
+    $('.host-slider').owlCarousel({
+        loop:true,
+        margin: 30,
+        nav: true,
+        navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
+        dots:true,
+        items: 1
+    });
 
 })(jQuery);
 

@@ -1311,7 +1311,7 @@ color: var(--bg-theme-color1);
   .team-block-two {
     position: relative;
     margin-bottom: 30px;
-    padding: 50px 0px;
+    padding-top: 70px;
     }
     .team-block-two .inner-box {
     position: relative;
@@ -1334,14 +1334,17 @@ color: var(--bg-theme-color1);
     }
     .team-block-two .inner-box:hover .info-box .designation,
     .team-block-two .inner-box:hover .info-box .name {
-    color: var(--theme-color-light);
+    color: var(--theme-color);
     }
     .team-block-two .info-box {
     position: relative;
     padding: 35px 20px 30px;
     text-align: center;
     }
-    .team-block-two .info-box:before {
+    .team-block-two .image-box{
+      position: relative;
+    }
+    .team-block-two .image-box:before {
     position: absolute;
     left: 0;
     top: 0;
@@ -1353,7 +1356,7 @@ color: var(--bg-theme-color1);
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
     }
-    .team-block-two .info-box:after {
+    .team-block-two .image-box:after {
     position: absolute;
     left: 0;
     top: 0;
@@ -1431,6 +1434,7 @@ color: var(--bg-theme-color1);
             flex-direction: column;
     width: 54px;
     border: 1px solid #fff;
+    background: var(--theme-color2);
     -webkit-transform: scaleY(0);
             transform: scaleY(0);
     -webkit-transform-origin: bottom;
@@ -1459,7 +1463,7 @@ color: var(--bg-theme-color1);
     }
     .guest-carousel .team-block-two.mt_35{
       position: relative;
-      margin-top: -35px;
+      margin-top: -50px;
     }
     .guest-carousel .owl-dots {
       display: flex;
@@ -1484,7 +1488,7 @@ color: var(--bg-theme-color1);
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
 }
-
+.host-slider .owl-nav,
 .ques-slider .owl-nav {
   align-items: center;
   justify-content: center;
