@@ -1348,7 +1348,7 @@ color: var(--bg-theme-color1);
     position: absolute;
     left: 0;
     top: 0;
-    height: 385px;
+    height: 150%;
     background-color: #f2f3f6;
     width: 100%;
     border-radius: 20px;
@@ -1493,6 +1493,10 @@ color: var(--bg-theme-color1);
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+}
+.host-slider .owl-next.disabled,
+.host-slider .owl-prev.disabled {
+  opacity: 0.5;
 }
 .ques-slider-item .sec-sub-title {
   font-size: 18px;

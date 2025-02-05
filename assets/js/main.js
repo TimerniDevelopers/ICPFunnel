@@ -193,7 +193,7 @@
         items: 1
     });
     $('.host-slider').owlCarousel({
-        loop:true,
+        loop:false,
         margin: 30,
         nav: true,
         navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
