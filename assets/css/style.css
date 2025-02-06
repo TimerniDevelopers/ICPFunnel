@@ -1287,21 +1287,36 @@ color: var(--bg-theme-color1);
 
 }
 .proposition {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: #000;
-  gap: 25px;
-  align-items: center;
-  padding: 40px;
-  padding-bottom: 0;
+
+ 
+  position: relative;
+}
+.proposition-img img{
+  border-radius: 7px;
+}
+.proposition-img{
+  position: relative;
   border-radius: 7px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
 }
+.proposition .content-box{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  z-index: 11;
+  width: 100%;
+  padding: 20px;
 
+}
     /*** 
     
     ====================================================================
