@@ -1662,3 +1662,9 @@ color: var(--bg-theme-color1);
 .banner-middle .btn-style-three:hover{
   color: #FFF;
 }
+
+.pod-pagination .page-item.active .page-link {
+  background-color: var(--theme-color1);
+  border-color: var(--theme-color1);
+  
+}
