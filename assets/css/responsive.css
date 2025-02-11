@@ -96,21 +96,21 @@
   gap: 10px;
   padding: 15px;
 }
-.banner-wrapper .left-wrap {
-  flex: 0 0 100%;
-  max-width: 100%;
-  padding: 20px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 3;
-  width: 100%;
-  background: linear-gradient(to top, #211813, transparent);
-}
-.banner-wrapper .right-wrap {
-  flex: 0 0 100%;
-  max-width: 100%;
-}
+  .banner-wrapper .left-wrap {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    background: linear-gradient(to top, #211813, transparent);
+  }
+  .banner-wrapper .right-wrap {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
   @media (max-width: 575px) {
   .roi-s-item-cont h5 br{
