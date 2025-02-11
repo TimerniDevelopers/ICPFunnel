@@ -107,6 +107,10 @@
   width: 100%;
   background: linear-gradient(to top, #211813, transparent);
 }
+.banner-wrapper .right-wrap {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
 }
   @media (max-width: 575px) {
   .roi-s-item-cont h5 br{
