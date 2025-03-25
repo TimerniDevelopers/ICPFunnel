@@ -112,6 +112,7 @@
     max-width: 100%;
   }
 }
+
   @media (max-width: 575px) {
   .roi-s-item-cont h5 br{
     display: none;

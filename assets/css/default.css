@@ -283,7 +283,7 @@
 }
 
 .mb-150 {
-    margin-bottom: 150px;
+    margin-bottom: 150px !important;
 }
 
 .mb-155 {
@@ -1856,3 +1856,7 @@ Page Title
     -o-transform: translate(0, 0);
 }
 
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}

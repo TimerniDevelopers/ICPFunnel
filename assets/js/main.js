@@ -94,7 +94,7 @@
     ////////////////////////////////////////////////////
     //  Counter Js
     $('.counter').counterUp({
-        delay: 10,
+        delay: 20,
         time: 1000
     });
 
@@ -192,6 +192,13 @@
         dots:true,
         items: 1
     });
+    $('.compliemt-slider').owlCarousel({
+        margin: 30,
+        nav: true,
+        navText: [ '<span class="fa fa-long-arrow-alt-left"></span>', '<span class="fa fa-long-arrow-alt-right"></span>' ],
+        dots:true,
+        items: 1
+    });
     $('.host-slider').owlCarousel({
         loop:false,
         margin: 30,
@@ -199,6 +206,29 @@
         navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
         dots:true,
         items: 1
+    });
+    $('.banner-carousel').owlCarousel({
+        loop: false,
+        dots:true,
+        margin: 0,
+        nav: true,
+        margin:20,
+        smartSpeed: 500,
+        autoHeight: true,
+        autoplay: false,
+        autoplayTimeout: 10000,
+        navText: ['<span class="fa fa-long-arrow-alt-left"></span>', '<span class="fa fa-long-arrow-alt-right"></span>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1024: {
+                items: 1
+            },
+        }
     });
 
 })(jQuery);
