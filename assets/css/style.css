@@ -3015,3 +3015,10 @@ content .date i {
   font-size: 17px;
   margin: 3px 0px;
 }
+.podcast-item{
+  background: #262629;
+}
+.podcast-item-con{
+
+  padding: 15px;
+}

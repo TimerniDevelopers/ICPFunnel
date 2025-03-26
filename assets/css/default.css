@@ -1587,7 +1587,7 @@ Page Title
     display: none;
   }
   .page-breadcrumb li a {
-    color: var(--theme-color1);
+    color:#ef1aef    ;
     font-weight: 500;
     text-transform: capitalize;
     transition: all 0.3s ease;
