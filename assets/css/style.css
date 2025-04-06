@@ -2922,7 +2922,10 @@ content .date i {
   font-weight: 500;
   font-size: 16px;
 }
-
+.compliemt-slider.default-navs .owl-nav {
+ justify-content: center;
+ margin-top: 20px;
+}
 .testimonial-wrapper {
   background: #fff;
   padding: 30px 40px;
@@ -3021,4 +3024,36 @@ content .date i {
 .podcast-item-con{
 
   padding: 15px;
+}
+
+.podcast-hero {
+  padding: 320px 0px;
+  background-color: #f8ed00;
+  background-image: url(../img/hero-bg.png), linear-gradient(269.64deg, #f7eb00 -27.05%, #fb1ac0 109.96%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+
+.podcast-hero .hero__content h5 {
+  font-weight: 400;
+  color: #f8ed00;
+  margin-bottom: 25px;
+}
+.podcast-hero .hero__content .hero__content-title {
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  font-size: 76px;
+    line-height: 86px;
+    color: #fff;
+}
+.podcast-hero .hero__content .primary-text {
+  display: flex
+;
+  align-items: center;
+  gap: 15px;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: -7px;
+  color: #fff;
 }
