@@ -126,7 +126,7 @@
                               <ul>
                                  <li><a href="index.html">Home</a></li>
                                  <li>
-                                    <a href="benifits.html" class="active">Benefits</a>
+                                    <a href="benifits.html">Benefits</a>
                                     <ul class="sub-menu">
                                        <li><a href="proposition.html">Value proposition</a></li>
                                        <li><a href="speakar.html">Speakers' Profile </a> </li>
@@ -134,7 +134,7 @@
                                     </ul>
                                  </li>
                                  <li>
-                                    <a href="featured.html">Featured as a Guests</a>
+                                    <a href="featured.html"  class="active">Featured as a Guests</a>
                                     <ul class="sub-menu">
                                        <li><a href="podcast.html">Upcoming Podcast</a></li>
                                        <li><a href="success.html">Success Stories</a> </li>
@@ -163,49 +163,110 @@
          </div>
       </header>
       <main>
-         <section class="page-title mb-150" data-background="assets/img/about-banner.jpg" style="background-image: url(&quot;assets/img/about-banner.jpg&quot;);">
+         <section class="page-title" data-background="assets/img/about-banner.jpg" style="background-image: url(&quot;assets/img/about-banner.jpg&quot;);">
             <div class="container">
                 <div class="title-outer">
-                    <h1 class="title">Speakers' Profile</h1>
+                    <h1 class="title">Successful Stories</h1>
                     <ul class="page-breadcrumb">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="benifits.html">Benifits</a></li>
-                        <li>Speakers' Profile</li>
+                        <li><a href="featured.html">Featured as a Guests</a></li>
+                        <li>Successful Stories</li>
                     </ul>
                 </div>
             </div>
         </section>
-        <section class="speaker-banner mt-50">
-         <div class="speaker-bg">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-6">
-                     <div class="speaker-img">
-                        <img src="assets/img/Speakar.png" alt="Speakar">
-                     </div>
-                  </div>
-                  <div class="col-md-6 section-right">
-                     <div class="speaker-content">
-                        <div class="content-box text-start">
-                           <div class="sec-title mb-0">
-                              <h2 class=" text-white">What they support us</h2>
-                          </div>
+      <!-- Slider Section -->
+      <section class="success-story section-padding">
+         <div class="container">
+            <div class="content-box text-center">
+               <div class="sec-title ">
+                  <h2> Successful Stories </h2>
+               </div>
+            </div>
+            <div class="row mt-50">
+               <div class="col-md-9">
+                  <div class="tab-content" id="v-pills-tabContent">
+                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <div class="dt-sc-video-wrapper">
+                           <img  class="w-100" src="assets/img/video-cover-image1.jpg" alt="diet">	
+                           <div class="video-overlay">
+                              <div class="video-overlay-inner">
+                                 <a  href="https://www.youtube.com/watch?v=WTUCPceDk0w" class="video-icon2"></a>
+                                 <h2>1. Improving your health by doing excercise with diet</h2>	
+                              </div>
+                           </div>
                         </div>
-                        <blockquote class="mt-1">
-                           <p>“Compny is a collaborative supply chain expert present in 50 countries, thanks to its subsidiaries and network of partners more than 5,000 companies”</p>
-                        </blockquote>
-                        <div class="author">
-                           <h3 class="author-title">Daniel Wright</h3>
-                           <h4 class="author-detail">Los Angeles</h4>
+                     </div>
+                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <div class="dt-sc-video-wrapper">
+                           <img  class="w-100" src="assets/img/blog-image-2.jpg" alt="diet">	
+                           <div class="video-overlay">
+                              <div class="video-overlay-inner">
+                                 <a  href="https://www.youtube.com/watch?v=WTUCPceDk0w" class="video-icon2"></a>
+                                 <h2>2. Improving your health by doing excercise with diet</h2>	
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                        <div class="dt-sc-video-wrapper">
+                           <img  class="w-100" src="assets/img/video-cover-image1.jpg" alt="diet">	
+                           <div class="video-overlay">
+                              <div class="video-overlay-inner">
+                                 <a  href="https://www.youtube.com/watch?v=WTUCPceDk0w" class="video-icon2"></a>
+                                 <h2>3. Improving your health by doing excercise with diet</h2>	
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane fade" id="v-pills-messages2" role="tabpanel" aria-labelledby="v-pills-messages2-tab">
+                        <div class="dt-sc-video-wrapper">
+                           <img  class="w-100" src="assets/img/video-cover-image1.jpg" alt="diet">	
+                           <div class="video-overlay">
+                              <div class="video-overlay-inner">
+                                 <a  href="https://www.youtube.com/watch?v=WTUCPceDk0w" class="video-icon2"></a>
+                                 <h2>4. Improving your health by doing excercise with diet</h2>	
+                              </div>
+                           </div>
                         </div>
                      </div>
                     
-                     
+                   </div>
+                 
+               </div>
+               <div class="col-md-3">
+                  <div class="video-scrollbar  nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                     <button class="nav-btn active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"> 
+                        <div class="dt-sc-video-item ">
+                           <img  src="assets/img/video-cover-image1.jpg" alt="diet">	
+                           <div class="dt-sc-vitem-detail">		<h2>Improving your health by doing excercise with diet</h2>			</div>
+                        </div>
+                     </button>
+                     <button class="nav-btn" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                        <div class="dt-sc-video-item ">
+                           <img  src="assets/img/blog-image-2.jpg" alt="diet">	
+                           <div class="dt-sc-vitem-detail">		<h2>Improving your health by doing excercise with diet</h2>			</div>
+                        </div>
+                     </button>
+                     <button class="nav-btn" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                        <div class="dt-sc-video-item ">
+                           <img  src="assets/img/video-cover-image1.jpg" alt="diet">	
+                           <div class="dt-sc-vitem-detail">		<h2>Improving your health by doing excercise with diet</h2>			</div>
+                        </div>
+                     </button>
+                     <button class="nav-btn" id="v-pills-messages2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages2" type="button" role="tab" aria-controls="v-pills-messages2" aria-selected="false">
+                        <div class="dt-sc-video-item ">
+                           <img  src="assets/img/video-cover-image1.jpg" alt="diet">	
+                           <div class="dt-sc-vitem-detail">		<h2>Improving your health by doing excercise with diet</h2>			</div>
+                        </div>
+                     </button>
+                    
                   </div>
                </div>
             </div>
          </div>
       </section>
+      <!-- Slider Section -->
       <section class="team-area-two mt-50">
          <div class="container">
             <div class="content-box text-center">
