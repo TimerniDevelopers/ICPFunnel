@@ -2695,8 +2695,12 @@ content .date i {
   width: 100%;
   border-radius: 100px;
 }
-.middle-item .item-img{
+.middle-item {
+  text-align: center;
+}
+.middle-item .item-img {
   max-width: 500px;
+  margin: 0 auto;
 }
 .right-item {
   width: 300px;
@@ -4397,4 +4401,139 @@ News Section
   padding: 60px 0;
   scroll-margin-top: 92px;
   overflow: clip;
+}
+
+/*** Pricing ***/
+.pricing .nav {
+  padding: 2px;
+}
+
+.pricing .nav-link {
+  padding: 12px 30px;
+  font-weight: 500;
+  color: #262b47;
+  background: #FFFFFF;
+}
+
+.pricing .nav-item:first-child .nav-link {
+  border-radius: 30px 0 0 30px;
+}
+
+.pricing .nav-item:last-child .nav-link {
+  border-radius: 0 30px 30px 0;
+}
+
+.pricing .nav-link.active {
+  color: #FFFFFF;
+  background: linear-gradient(to bottom right, var(--theme-color1), var(--theme-color2));
+}
+
+.bg-primary-gradient {
+  background: linear-gradient(to bottom right, var(--theme-color1), var(--theme-color2));
+}
+/*--------------------------------------------------------------
+# Pricing Section
+--------------------------------------------------------------*/
+.pricing .pricing-item {
+  padding: 60px 40px;
+  box-shadow: 0 3px 20px -2px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  position: relative;
+}
+.pricing .nav-item .save-abs {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 0;
+  padding: 14px;
+  border-radius: 5px;
+  bottom: -26px;
+  color: var(--theme-color-light);
+  background: var(--theme-color2);
+  display: block;
+  left: 2px;
+  width: 120px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.pricing h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.pricing h4 {
+  font-size: 48px;
+  color: var(--theme-color1);
+  font-weight: 400;
+}
+
+.pricing h4 sup {
+  font-size: 28px;
+}
+
+.pricing  h4 span {
+  font-size: 18px;
+}
+
+.pricing .tab-content ul {
+  padding: 20px 0;
+  list-style: none;
+  text-align: left;
+  line-height: 20px;
+}
+
+.pricing .tab-content ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+
+.pricing .tab-content ul i {
+  color: var(--theme-color2);
+  font-size: 14px;
+  padding-right: 5px;
+}
+
+.pricing ul .na span {
+  text-decoration: line-through;
+}
+
+.pricing .featured {
+  z-index: 10;
+}
+
+.pricing .featured .pricing-item {
+  background: var(--theme-color1);
+}
+
+
+
+.pricing .featured h3,
+.pricing .featured p,
+.pricing .featured h4,
+.pricing .featured h4 span,
+.pricing .featured ul,
+.pricing .featured ul .na,
+.pricing  .featured ul i,
+.pricing .tab-content .featured ul i,
+.pricing .featured ul .na i {
+  color: #fff !important;
+}
+
+.pricing .tab-content ul .na i {
+  color: #444444;
+}
+
+.pricing .featured .theme-btn {
+  background: var(--theme-color1);
+  color: #fff;
+  border-color: #fff;
+}
+.complimants{
+  padding-top: 25px;
+  padding-bottom: 70px;
 }
