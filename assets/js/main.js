@@ -152,6 +152,22 @@
         srcAction: 'iframe_src',
     }
     });  
+    $('.popup-youtube').magnificPopup({
+        type: 'iframe',
+        iframe: {
+            patterns: {
+                youtube: {
+                    index: 'https://www.youtube.com/',
+    
+                    id: 'v=',
+                    src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+                }
+    
+            },
+            srcAction: 'iframe_src',
+        }
+        });  
+    
 
     $('.banner-slider').owlCarousel({
         loop:true,
