@@ -4451,7 +4451,7 @@ News Section
   color: var(--theme-color-light);
   background: var(--theme-color2);
   display: block;
-  left: 2px;
+  left: -3px;
   width: 120px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
