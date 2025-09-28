@@ -611,7 +611,7 @@ button:not(:disabled) {
   top: 0;
   animation: sticky 2s;
   box-shadow: 0px 10px 25px 0px rgb(0 0 0 / 15%);
-  z-index: 9999;
+  z-index: 99;
   -webkit-animation: sticky 2s;
   padding: 10px 0px;
 }
@@ -4536,4 +4536,5 @@ News Section
 .complimants{
   padding-top: 25px;
   padding-bottom: 70px;
+
 }
